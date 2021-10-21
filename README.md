@@ -1,2 +1,2 @@
-# hactoerfest
+# hactoberfest
 basic ripo
