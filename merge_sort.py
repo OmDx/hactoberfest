@@ -12,7 +12,7 @@
 # Output: [1,2,2,3,5,6]
 # Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
 # The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
-
+# this is merge sort code
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -35,6 +35,7 @@ class Solution:
             nums1[k] = nums2[j]
             j-=1
             k-=1
+        print("Task Accomplished")
          """
         merge sort
         """
